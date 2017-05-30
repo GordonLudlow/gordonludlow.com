@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gordon Ludlow dot com</title>
+<link rel="stylesheet" href="./gordonludlow.css" />
+</head>
+<body>
+<script src="./gordonludlow.js"></script>
+<div id="header">
+    <div id="header-content">
+        <div id="logo">
+            <a href="./index.html"><img src="./gordonludlowdotcom.png"></a>
+        </div>
+        <div id="nav">
+            <div class="tab">
+              <button class="tablinks" onclick="openTab(event, 'Career')">Career</button>
+              <button class="tablinks" onclick="openTab(event, 'Running')">Running</button>
+              <button id='HobbyButton' class="tablinks" onclick="openTab(event, 'Hobbyist', 'HobbySubmenu')">Hobbies</button>
+              <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+            </div>
+        </div>
+        <div id="HobbySubmenu" class="tab submenu" style="display: none;">
+          <button class="tablinks" onclick="openTab(event, 'CodingHobby', 'HobbySubmenu', 'HobbyButton')">Coding</button>
+          <button class="tablinks" onclick="openTab(event, 'BrewingHobby', 'HobbySubmenu', 'HobbyButton')">Brewing</button>
+          <button class="tablinks" onclick="openTab(event, 'GamingHobby', 'HobbySubmenu', 'HobbyButton')">Gaming</button>
+        </div>        
+    </div>
+</div>    
+
+<div id="Career" class="tabcontent">
+  <h1>Career</h1>
+  <h2>Companies</h2>
+  <div class="evenly-spaced-row">
+    <div><a href="https://en.wikipedia.org/wiki/Manley_%26_Associates"><img src="manley.png"></a></div>
+    <div><a hef="https://www.ea.com/"><img src="ea.png"></a></div>
+    
+  </div>
+  <h2>Games</h2>
+  <h2>Press</h2>
+    <div class="evenly-spaced-row">
+      <div><a href="http://www.mobygames.com/developer/sheet/view/developerId,4375/"><img src="./mobygames-logo.png"></a></div>
+      <div><a href="http://www.imdb.com/name/nm2937678/"><img src="./imdb.png"></a></div>
+      <div><a href="http://www.metacritic.com/person/gordon-ludlow"><img src="mclogo.png"></a></div>
+    </div>​  
+</div>
+
+<div id="Running" class="tabcontent">
+  <h3>Running</h3>
+  <p>Run</p> 
+</div>
+
+<div id="Hobbyist" class="tabcontent">
+
+</div>
+<div id="CodingHobby" class="tabcontent">
+    <h3>Coding</h3>
+    <p></p>
+</div>
+<div id="BrewingHobby" class="tabcontent">
+    <h3>Brewing</h3>
+    <p></p>
+</div>
+<div id="GamingHobby" class="tabcontent">
+    <h3>Gaming</h3>
+    <p></p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>ways to find me</p>
+</div>
+
+</body>
+</html>
